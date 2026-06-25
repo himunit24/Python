@@ -5,3 +5,20 @@ print("_________________________________________________________________________
 l2=[10,50,30,40,20]
 for i in l2 :
     print(i,end=" ")
+print()
+print("-----------------------------------------------------")
+# we can also use while loop here
+i=len(l2)-1
+while i>=0 :
+    print(l2[i],end=" ")
+    i=i-1
+
+#for deleting element use del(l2[0])
+del(l2[2])
+print()
+print("-----------------------------------------------------")
+# we can also use while loop here
+i=len(l2)-1
+while i>=0 :
+    print(l2[i],end=" ")
+    i=i-1
