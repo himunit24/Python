@@ -23,4 +23,4 @@ print("-----------------------")
 print("WE CAN USE THE CONCEPT OF UNPACKING")
 
 for k,d in d1.items() :
-    print(k,d)
+    print(k,":",d)
